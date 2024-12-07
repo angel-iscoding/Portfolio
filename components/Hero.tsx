@@ -30,12 +30,12 @@ const Hero = () => {
                 />
 
                 <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                    Hi, I'm Angel Afanador, a Fullstack Developer in Colombia.
+                    Hi, I'm Angel Afanador, trying to do my best.
                 </p>
 
                 <a href="#about">
                     <MagicButton
-                    title='Show my work '
+                    title='Show my work     '
                     icon={<FaLocationArrow/>}
                     position='right'
                     />
