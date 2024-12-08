@@ -9,17 +9,17 @@ import {
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 
-export const FloatingNav = ({
-  navItems,
-  className,
-}: {
+type FloatingNavProps = {
   navItems: {
     name: string;
     link: string;
     icon?: JSX.Element;
   }[];
   className?: string;
-}) => {
+};
+
+export const FloatingNav = (props: FloatingNavProps) => {
+  const { navItems, className } = props;
   const { scrollYProgress } = useScroll();
 
   const [visible, setVisible] = useState(false);
