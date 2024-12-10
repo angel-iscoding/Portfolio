@@ -11,16 +11,6 @@ declare module "@react-three/fiber" {
   }
 }
 
-declare global {
-  namespace JSX {
-    interface IntrinsicElements {
-      ambientLight: any;
-      directionalLight: any;
-      pointLight: any;
-    }
-  }
-}
-
 extend({ ThreeGlobe });
 
 const RING_PROPAGATION_SPEED = 3;
