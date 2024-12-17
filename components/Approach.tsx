@@ -8,33 +8,32 @@ import { motion } from 'framer-motion';
 const Approach = () => {
   return (
     <section className='w-full py-20'>
-        <h1 className='heading'>
-            My <span className='text-purple'>approach</span>
-        </h1>
-        <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
-        <Card title="Planning & Strategy" icon={<AceternityIcon order="Phase 1"/>} description="Hola hola hola 1">
+      <h1 className='heading'>
+          My <span className='gradiet-text-title'>approach</span>
+      </h1>
+      <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
+        <Card title="Conceptualización" icon={<AceternityIcon order="Phase 1"/>} description="El proceso de generación de ideas y desarrollo de conceptos.">
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
+            dotSize={2}
           />
         </Card>
-        <Card title="Nisha is Munni" icon={<AceternityIcon order="Phase 2"/>} description="Hola hola hola 2">
+        <Card title="Diseño y Desarrollo" icon={<AceternityIcon order="Phase 2"/>} description="Las técnicas y herramientas que usas para crear tu trabajo.">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-black"
-            colors={[
-              [236, 72, 153],
-              [232, 121, 249],
-            ]}
+            colors={[[236, 72, 153]]}
             dotSize={2}
           />
           
         </Card>
-        <Card title="Munni is Aditi" icon={<AceternityIcon order="Phase 3"/>} description="Hola hola hola 3">
+        <Card title="Presentación" icon={<AceternityIcon order="Phase 3"/>} description="Cómo preparas y presentas tu trabajo final.">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600"
             colors={[[125, 211, 252]]}
+            dotSize={2}
           />
         </Card>
       </div>
@@ -86,7 +85,7 @@ const Card = ({
           <h2 className="dark:text-white text-3xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200 text-center">
             {title}
           </h2>
-          <h2 className="text-sm dark:text-white opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200"
+          <h2 className="text-sm dark:text-white opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200 text-center"
           style={{ color: '#e4ecff'}}
           >
             {description}

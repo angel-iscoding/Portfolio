@@ -1,7 +1,7 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    { name: "Experience", link: "#experience" },
     { name: "Contact", link: "#contact" },
   ];
   
@@ -22,7 +22,7 @@ export const navItems = [
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
-      titleClassName: "justify-start",
+      titleClassName: "justify-start md:mb-20",
       img: "",
       spareImg: "",
     },
@@ -76,7 +76,8 @@ export const navItems = [
       des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
       img: "/p1.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      link: "https://3d-portfolio.com/",
+      codeLink:"https://github.com/adrianhajdin/3D_portfolio"
     },
     {
       id: 2,
@@ -84,7 +85,8 @@ export const navItems = [
       des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
       img: "/p2.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      link: "https://www.jsmastery.pro/",
+      codeLink:"https://github.com/adrianhajdin/zoom-clone"
     },
     {
       id: 3,
@@ -92,7 +94,8 @@ export const navItems = [
       des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      link: "https://www.jsmastery.pro/",
+      codeLink:"https://github.com/adrianhajdin/ai_saas_app"
     },
     {
       id: 4,
@@ -100,7 +103,8 @@ export const navItems = [
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      link: "https://iphone-doc.vercel.app/",
+      codeLink:"https://github.com/adrianhajdin/iphone"
     },
   ];
   

@@ -12,7 +12,7 @@ const Footer = () => {
 
         <div className='flex flex-col items-center'>
             <h1 className='heading lg:max-w-[45vw]'>
-                Ready to take <span className='text-purple'>your </span> digital 
+                Ready to take <span className='gradiet-text-title'>your </span> digital 
                 presence to the next level?
             </h1>
             <p className='text-white-200 md:mt-10 my-5 text-center'>
@@ -21,14 +21,15 @@ const Footer = () => {
             <a href="mailto:angel.iscoding@gmail.com">
                 <MagicButton 
                     title="Let's get in touch"
+                    color='bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]'
                     icon={<FaLocationArrow/>}
                     position='right'
                 />
             </a> 
         </div>
 
-        <div className='flex mt-16 md:flex-col flex-col justify-between items-center'>
-            <p className='md:text-base text-sm md:font-normal font-light'>Copyright © 2024 Angel</p>
+        <div className='flex mt-10 md:flex-col flex-col justify-between items-center'>
+            <p className='md:text-base text-sm md:font-normal font-light pb-3'>Copyright © 2024 Angel</p>
         
             <div className='flex items-center md:gap-3 gap-6'>
                 {socialMedia.map((profile) => (

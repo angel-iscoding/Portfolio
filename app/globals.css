@@ -64,6 +64,14 @@
     --input: 240 3.7% 15.9%;
     --ring: 240 4.9% 83.9%;
   }
+
+  .gradiet-text-title {
+    background: linear-gradient(90deg, #cbacf9 0%, #a467ff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
 }
 
 @layer base {

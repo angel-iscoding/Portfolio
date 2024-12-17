@@ -7,10 +7,11 @@ const Clients = () => {
     <div className='py-20' id='testimonials'>
         <h1 className='heading'>
             Kind works from {' '}
-            <span className='text-purple'> satisfied clients</span>
+            <span className='gradiet-text-title'> satisfied clients</span>
         </h1>
         <div className='flex flex-col items-center max-lg:mt-10'>
             <InfiniteMovingCards
+                className='py-10'
                 items={testimonials}
                 direction='right'
                 speed='slow'

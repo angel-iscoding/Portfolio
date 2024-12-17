@@ -26,6 +26,9 @@ const config = {
       },
     },
     extend: {
+      backgroundImage: {
+        'profile-photo': "url('/profile.jpg')"
+      },
       colors: {
         black: {
           DEFAULT: "#000",
