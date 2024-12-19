@@ -5,9 +5,7 @@ import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
-import { BackgroundLines } from "@/components/ui/BackgroundLines";
 import { FloatingNav } from "@/components/ui/FloatingNav";
-import { BackgroundGradientAnimation } from "@/components/ui/GradientBg";
 import { navItems } from "@/data";
 
 export default function Home() {
