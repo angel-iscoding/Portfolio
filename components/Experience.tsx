@@ -7,7 +7,7 @@ import { Timeline } from './ui/TimeLine';
 const Experience = () => {
     const data = [
         {
-          title: "2024",
+          title: "2023",
           content: (
             <div>
               <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
@@ -47,7 +47,7 @@ const Experience = () => {
           ),
         },
         {
-          title: "Early 2023",
+          title: "2024",
           content: (
             <div>
               <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
@@ -92,7 +92,7 @@ const Experience = () => {
           ),
         },
         {
-          title: "Changelog",
+          title: "Now",
           content: (
             <div>
               <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">

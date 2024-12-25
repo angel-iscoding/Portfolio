@@ -8,6 +8,7 @@ import {
 } from "framer-motion";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import ShimmerButton from "./ShimmerButton";
 
 type FloatingNavProps = {
   navItems: {
@@ -81,6 +82,15 @@ export const FloatingNav = (props: FloatingNavProps) => {
             )}
           </Link>
         ))}
+        {/* <Link
+          key={`link`}
+          href={'Link'}
+          className={cn(
+            "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
+          )}
+        >
+          <ShimmerButton/>
+        </Link> */}
       </motion.div>
     </AnimatePresence>
   );

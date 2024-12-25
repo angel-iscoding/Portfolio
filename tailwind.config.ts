@@ -1,3 +1,4 @@
+import { nextui } from "@nextui-org/react";
 import type { Config } from "tailwindcss";
 
 const svgToDataUri = require("mini-svg-data-uri");
@@ -15,6 +16,7 @@ const config = {
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
     "./data/**/*.{ts,tsx}",
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   prefix: "",
   theme: {
@@ -26,6 +28,7 @@ const config = {
       },
     },
     extend: {
+      darkMode: "class",
       backgroundImage: {
         'profile-photo': "url('/profile.jpg')"
       },
@@ -166,6 +169,7 @@ const config = {
     },
   },
   plugins: [
+    [nextui()],
     require("tailwindcss-animate"),
     addVariablesForColors,
     function ({ matchUtilities, theme }: any) {
